@@ -1,0 +1,18 @@
+//Beans in Java
+
+package com.example.new_project;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class HelloWorldConfiguration {
+	//CREATE A METHOD
+	@Bean
+	public String name() {
+		return "Raju";
+	}
+	@Bean
+	public int age() {
+		return 15;
+	}
+	
+}
